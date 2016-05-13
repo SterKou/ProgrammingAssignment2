@@ -1,6 +1,8 @@
 ## This group of funtions designed to cache value of an inverted matrix. 
 ## They provide closure functions that set and get a matrix,  
 ## or set and get matrix inverse. 
+
+## @name: makeCacheMatrix
 ## This function takes invertible matrix as its parameter
 ## @param: x invertible matix
 ## provides number of closure functions to set or get a matix.
@@ -28,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)
 }
 
-
+## @name: cacheSolve
 ## This function takes a list of functions as its input parameters
 ## It checks inverse of a matrix variable is not NULL.
 ## If the variable is not NULL it returns the inverse of the matrix
