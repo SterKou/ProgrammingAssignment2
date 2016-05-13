@@ -1,7 +1,6 @@
 ## This group of funtions designed to cache value of an inverted matrix. 
 ## They provide closure functions that set and get a matrix,  
 ## or set and get matrix inverse. 
-
 ## This function takes invertible matrix as its parameter
 ## @param: x invertible matix
 ## provides number of closure functions to set or get a matix.
